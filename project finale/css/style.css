@@ -1,0 +1,135 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow-X: hidden;
+}
+
+/* code that contains header elements from below */
+
+header{
+    background-color: black;
+}
+  
+/* navbar styling */
+
+.navbar{
+    background-color: #EEEEEE;
+}
+
+.nav-item{
+    width: 200px;
+}
+
+.d-flex:hover{
+    width: 350px;
+    padding: 0 10px;
+
+}
+/* body code from below ( not including the header) */
+
+main{
+
+}
+
+.landing{
+    width: 100%;
+    background-image: url("../assets/images/wallpapers/fireysneaks.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 80vh;
+    
+}
+
+.landing-inner{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding:50px 7% ;
+}
+
+.text-container{
+    color: white;
+} 
+
+.logo-container{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.logo{
+    max-height: 200px;
+    width: auto;
+}
+
+.shoe-container{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+/* defining text for section */
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sec{
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.large-image{
+    width: 100%;
+}
+
+h5{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.divider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-inline-item{
+    padding: 5px;
+}
+
+.list-inline-item a{
+    color: white;
+}
+
+/* footer code from below */
+
+footer{
+background-color: #DDDDDD;
+
+}
+
+.shopss{
+    text-decoration: none;
+    color: red;
+}
+
+.shopss:hover{
+    color: #DDDDDD;
+}
